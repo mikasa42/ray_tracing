@@ -104,7 +104,7 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv); // Inicializa o GLUT
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH); // Define o modo de exibição do GLUT
     glutInitWindowSize(WIDTH, HEIGHT); // Define o tamanho da janela
-    glutCreateWindow("Museu 3D"); // Cria a janela com o título "Museu 3D"
+    glutCreateWindow("Esfera sobre o plano"); // Cria a janela com o título "Museu 3D"
 
     init(); // Inicializa a cena
     glutDisplayFunc(display); // Define a função de exibição
